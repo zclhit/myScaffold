@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(n,e,t){n.exports=t(8)},8:function(n,e,t){"use strict";t.r(e);var a=t(0),c=t.n(a),o=t(2);function r(){return c.a.createElement("div",null,"myScaffold")}t.n(o).a.render(c.a.createElement(r,null),document.getElementById("app"))}},[[3,1,2]]]);
