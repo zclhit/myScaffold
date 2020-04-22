@@ -15,15 +15,15 @@ A scaffold based on Spring Boot and React, integrate them together and deploy fa
 
 通过IntelliJ IDEA自带的Spring Boot生成器生成web项目，File - New -  project... - Spring Initializer (NEXT)，设置好坐标名、项目名称，打包方式，Java版本，项目描述等信息。
 
-![image-20200422103217150](/Users/changle.zhang/Library/Application Support/typora-user-images/image-20200422103217150.png)
+![image-01](https://github.com/zclhit/myScaffold/blob/master/imgs/image01.png?raw=true)
 
 在选择项目依赖时，勾选Spring Web，这时将会自动将spring-boot-start-web依赖添加到项目中。spring-boot-start-web提供了开发一个Spring boot web所需要的绝大多数依赖，可以省下很多时间去做一些自己的设置和增加额外的依赖。
 
-![image-20200422105231907](/Users/changle.zhang/Library/Application Support/typora-user-images/image-20200422105231907.png)
+![image-02](https://github.com/zclhit/myScaffold/blob/master/imgs/image02.png?raw=true)
 
 可以看到，初始化之后的文件结构如图所示，所有的业务逻辑代码都在src/main/java目录下，所有的配置信息与静态文件都在resource下，所有的测试文件都在src/main/test目录下，由于我选择的是maven作为项目管理工具，所以mvnw, mvnw.cmd和pom.xml会出现在这个目录下。
 
-![image-20200422111523521](/Users/changle.zhang/Library/Application Support/typora-user-images/image-20200422111523521.png)
+![image-03](https://github.com/zclhit/myScaffold/blob/master/imgs/image03.png?raw=true)
 
 至此，一个基本的Spring Boot with Web就完成了。
 
